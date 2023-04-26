@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="/static/all.css">
 </head>
 
-<header>
+
+<body>
+  <header>
     <!--Cabeçalho nav-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
@@ -23,7 +25,7 @@
         <div class="collapse navbar-collapse mx-3" id="navbarTogglerDemo02">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="sobre.html">Sobre</a>
@@ -41,53 +43,54 @@
         </div>
       </div>
     </nav>
-</header>
+  </header>
 
-<body>
-  <div class="container">
-    <div class="row">
-        <div  id="login" class="col-md-6">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title">Crie sua conta</h3>
-                </div>
-                <div class="panel-body">
-                    <form class="row g-3">
-                        <div class="col-12">
-                            <input type="text" class="form-control" id="inputName" placeholder="Nome">
-                        </div>
-                        <div class="col-12">
-                            <input type="text" class="form-control" id="inputLastName" placeholder="Sobrenome">
-                        </div>
-                        <div class="col-md-6">
-                          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                        </div>
-                        <div class="col-md-6">
-                          <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
-                        </div>
-                        <div class="col-md-12">
-                          <label for="inputState" class="form-label">Grau</label>
-                          <select id="inputState" class="form-select">
-                            <option selected>Selecione...</option>
-                            <option>Pofessor</option>
-                            <option>Especialista na área</option>
-                            <option>Graduando</option>
-                            <option>Estudante autônomo</option>
-                          </select>
-                        </div>
-                        <!--<div class="col-md-4">
-                          <label for="inputZip" class="form-label">Experiência</label>
-                          <input type="text" class="form-control" id="inputexperiencia" placeholder="Tempo de experiência">
-                        </div>-->
-                        <div class="col-12">
-                          <button type="submit" class="btn btn-dark">Sign up</button>
-                        </div>
-                      </form>
-                </div>
-            </div>
-        </div>
+  <main>
+    <div class="container">
+      <div class="row">
+          <div  id="login" class="col-md-6">
+              <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h3 class="panel-title">Crie sua conta</h3>
+                  </div>
+                  <div class="panel-body">
+                      <form class="row g-3">
+                          <div class="col-12">
+                              <input type="text" class="form-control" id="inputName" placeholder="Nome">
+                          </div>
+                          <div class="col-12">
+                              <input type="text" class="form-control" id="inputLastName" placeholder="Sobrenome">
+                          </div>
+                          <div class="col-md-6">
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                          </div>
+                          <div class="col-md-6">
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+                          </div>
+                          <div class="col-md-12">
+                            <label for="inputState" class="form-label">Grau</label>
+                            <select id="inputState" class="form-select">
+                              <option selected>Selecione...</option>
+                              <option>Pofessor</option>
+                              <option>Especialista na área</option>
+                              <option>Graduando</option>
+                              <option>Estudante autônomo</option>
+                            </select>
+                          </div>
+                          <!--<div class="col-md-4">
+                            <label for="inputZip" class="form-label">Experiência</label>
+                            <input type="text" class="form-control" id="inputexperiencia" placeholder="Tempo de experiência">
+                          </div>-->
+                          <div class="col-12">
+                            <button type="submit" class="btn btn-dark">Sign up</button>
+                          </div>
+                        </form>
+                  </div>
+              </div>
+          </div>
+      </div>
     </div>
-</div>
+  </main>
 
 <style>
   h3 {
@@ -111,37 +114,8 @@
     margin-top: 30px;
   }
 </style>
-</body>
 
-<footer>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-4 my-5 px-5">
-          <img src="/images/icone.png" width="100px">
-        </div>
-  
-        <div class="col-md-4 my-5">
-          <p>Acompanhe-nos!</p>
-          <i class="bi bi-instagram m-1" style="font-size: 25px;"></i>
-          <i class="bi bi-twitter m-1" style="font-size: 25px;"></i>
-          <i class="bi bi-facebook m-1" style="font-size: 25px;"></i>
-          <i class="bi bi-youtube m-1" style="font-size: 25px;"></i>
-          <i class="bi bi-github m-1" style="font-size: 25px;"></i>
-        </div>
-  
-        <div class="col-md-4 my-5 d">
-          <p>Assine nossa <b>NewsLetter</b></p>
-          <label for="exampleFormControlInput1" class="form-label">Email address</label>
-          <div class="row d-flex">
-            <div class="col-auto">
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" style="max-width: 200px;">
-            </div>
-            <div class="col-5">
-              <button type="button" class="btn btn-light">Inscreva-se</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+<footer id="footer"></footer>
+<script src="../static/code/footer.js"></script>
+</body>
 </html>
