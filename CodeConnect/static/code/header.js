@@ -16,7 +16,7 @@ var headerContent = `
             <a class="nav-link" href="sobre.html">Sobre</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Categorias</a>
+            <a class="nav-link" href="postagens.html">Categorias</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="Login.html">Sign in</a>
