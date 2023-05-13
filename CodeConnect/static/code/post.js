@@ -38,6 +38,7 @@ function clear() {
     document.getElementById("textarea1").value = '';
 }
 
+/*
 function keyWords() {
     //Gera splits em vetor para separar as palavras chaves(eu espero kkkkkkk)
     var input = document.querySelector("keywordsinput");
@@ -49,4 +50,4 @@ function keyWords() {
 
 function alerta() {
     document.getElementById("")
-}
+}*/
