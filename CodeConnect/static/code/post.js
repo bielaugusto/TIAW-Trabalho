@@ -36,4 +36,3 @@ function Clear() {
     document.getElementById("textarea1").style.fontStyle = "normal";
     document.getElementById("textarea1").value = ' ';
 }
-
