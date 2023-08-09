@@ -1,7 +1,7 @@
 # TIAW-Trabalho
 Trabalho da disciplina: Trabalho Interdisciplinar: Aplicações Web em Análise e Desenvolvimento de Sistemas
 
-A Code Connect tem como propósito principal ser um espaço virtual onde os usuários possam discutir e trocar informações sobre as últimas novidades, tendências e desenvolvimentos no mundo da tecnologia. O objetivo é criar uma comunidade online ativa e engajada, onde pessoas com interesses em comum possam se conectar e compartilhar seus conhecimentos. Nós possuímos diferentes seções e sub-fóruns, cada um dedicado a um tópico específico. A ideia é que os usuários possam encontrar facilmente as informações que desejam e participar das discussões que lhes interessam.
+A `Code Connect` tem como propósito principal ser um espaço virtual onde os usuários possam discutir e trocar informações sobre as últimas novidades, tendências e desenvolvimentos no mundo da tecnologia. O objetivo é criar uma comunidade online ativa e engajada, onde pessoas com interesses em comum possam se conectar e compartilhar seus conhecimentos. Nós possuímos diferentes seções e sub-fóruns, cada um dedicado a um tópico específico. A ideia é que os usuários possam encontrar facilmente as informações que desejam e participar das discussões que lhes interessam.
 
 
 
